@@ -1,0 +1,5 @@
+target 'RNStreamer' do
+
+  pod 'NodeMediaClient'
+
+end

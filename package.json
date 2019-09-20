@@ -1,0 +1,35 @@
+{
+  "name": "RNStreamer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.6.1",
+    "@react-native-community/netinfo": "3.2.1",
+    "axios": "^0.19.0",
+    "pusher-js": "^5.0.1",
+    "random-animal-name-generator": "^0.1.1",
+    "random-id": "^1.0.3",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-config": "^0.11.7",
+    "react-native-dialog": "^5.6.0",
+    "react-native-gesture-handler": "1.2.1",
+    "react-native-nodemediaclient": "^0.1.2",
+    "react-native-permissions": "^1.2.0",
+    "react-native-video": "^5.0.2",
+    "react-navigation": "3.12.1"
+  },
+  "devDependencies": {
+    "babel-jest": "24.9.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.56.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
