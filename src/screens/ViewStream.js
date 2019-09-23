@@ -101,7 +101,9 @@ export default class ViewStream extends Component {
     });
 
     this.setState((prevState) => ({
-      comments: prevState.comments.concat({ id, text })
+      comments: prevState.comments.concat({ id, text }),
+      text: '',
+      isInputContainerVisible: false
     }));
   }
 }
