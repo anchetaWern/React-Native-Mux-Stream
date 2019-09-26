@@ -2,6 +2,8 @@
 
 A live video streaming app created with React Native and Mux.
 
+Full tutorial is available at: [http://pusher.com/tutorials/video-streaming-app-mux-react-native](http://pusher.com/tutorials/video-streaming-app-mux-react-native)
+
 ### Prerequisites
 
 - React Native development environment
